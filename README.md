@@ -21,5 +21,5 @@ The app  should be built using Flutter with version >= 3.7.10 and Firebase, a cl
 
 **Tips:**
 
-UI should be simple and intuitive ,assessment will be based on state management and code architecture.
+UI should be simple and intuitive ,assessment will be majorly based on state management and code architecture.
 
