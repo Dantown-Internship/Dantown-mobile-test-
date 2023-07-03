@@ -5,9 +5,9 @@
 The app  should be built using Flutter with version >= 3.7.10 and Firebase, a cloud-based platform provided by Google, will serve as the backend and database using either provider or Bloc as state management.
 
 **Steps**
-1. Clone project
+1. Clone the project
 2. Create a branch with your full name
-3. Submit after completion
+3. Submit after completion to this same repo in the branch you created
 
 
 **Key features:**
