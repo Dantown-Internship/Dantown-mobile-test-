@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "273280905907",
+    "project_id": "dantown-test-to-do",
+    "storage_bucket": "dantown-test-to-do.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273280905907:android:718a3e1d21b41faef1f6c6",
+        "android_client_info": {
+          "package_name": "com.dantown.dantown_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273280905907-d13d9klt43lg431sgit0tq6v329o9r1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvKqZQfUnSu6G5P_7pstzLsxqVrsR0DyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273280905907-d13d9klt43lg431sgit0tq6v329o9r1q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "273280905907-n4tr11frrv3j95im4h2urk7ukk6383hm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dantown.dantownTest"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
