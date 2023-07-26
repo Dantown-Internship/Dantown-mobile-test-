@@ -1,19 +1,18 @@
-// import 'package:dantown_test/model/todo.dart';
+import 'package:flutter/material.dart';
 import 'package:dantown_test/provider/todo_provider.dart';
 import 'package:dantown_test/widget/todo_widget.dart';
-import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-class TodoListPage extends StatelessWidget {
-  const TodoListPage({super.key});
+class CompletedListPage extends StatelessWidget {
+  const CompletedListPage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final provider = Provider.of<TodosProvider>(context);
-    final todos = provider.todos;
+    final provider = Provider.of<TodosProvider>(context, listen: true);
+    final todos = provider.todosCompleted;
 
     return todos.isEmpty
-        ? const Center(child: Text('You don\'t have anything in your to do yet...', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w500),))
+        ? const Center(child: Text('No completed todo...', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w500),))
         : ListView.separated(
             physics: BouncingScrollPhysics(),
             padding: EdgeInsets.all(16),

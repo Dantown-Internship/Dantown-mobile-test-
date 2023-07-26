@@ -1,3 +1,4 @@
+import 'package:dantown_test/pages/completed_list_page.dart';
 import 'package:dantown_test/pages/todo_list_page.dart';
 import 'package:dantown_test/widget/add_todo.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +16,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
   Widget build(BuildContext context) {
     final tabs = [
       TodoListPage(),
-      Container(),
+      CompletedListPage(),
     ];
     return Scaffold(
       appBar: AppBar(
