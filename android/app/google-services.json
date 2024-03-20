@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "486976281073",
+    "project_id": "go-dantown",
+    "storage_bucket": "go-dantown.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486976281073:android:ea60784056badcd0390c50",
+        "android_client_info": {
+          "package_name": "com.dantown.dantown_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEKpzBcVH6E1ICZ7RjUS0JFFXnKV3BmyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
