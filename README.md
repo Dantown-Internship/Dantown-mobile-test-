@@ -2,7 +2,7 @@
 
 ***Framework***
 
-The app  should be built using Flutter with version >= 3.24.2 and Firebase, a cloud-based platform provided by Google, will serve as the backend and database using either provider or Bloc as state management.
+The app  should be built using Flutter with version >= 3.24.2 and Firebase, a cloud-based platform provided by Google, will serve as the backend and database using either provider or riverpod or redux or Bloc as state management.
 
 **Steps**
 1. Clone the project
